@@ -39,9 +39,7 @@ public class MainActivity extends AppCompatActivity {
             });
         }
     }
-
-    //Completion completion = new Completion();
-
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
