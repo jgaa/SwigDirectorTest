@@ -2,7 +2,6 @@
 
 /* Required include files */
 %{
-    #pragma once
     #include "NativeRestApi.h"
 %}
 

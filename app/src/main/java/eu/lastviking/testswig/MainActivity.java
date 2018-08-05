@@ -70,8 +70,6 @@ public class MainActivity extends AppCompatActivity {
         // Initiate an async 'rest' request with a completion
         restApi.sendPostRequest("https://api.example.com/v1/testme",
                 "{}", completion.createWrapper());
-        System.gc();
-        System.runFinalization();
     }
 
     @Override
